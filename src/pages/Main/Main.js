@@ -1,10 +1,16 @@
 import React from 'react';
 import Page from "../../layouts/Page/Page";
+import {Stories} from "../../components/sections";
+import Container from "../../components/Container/Container";
 
 const Main = () => {
     return (
         <Page>
-            Title
+            <section>
+                <Container>
+                    <Stories/>
+                </Container>
+            </section>
         </Page>
     );
 };

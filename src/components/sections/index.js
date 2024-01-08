@@ -5,6 +5,7 @@ import News from "./News/News";
 import SalesHits from "./SalesHits/SalesHits";
 import StoreAddresses from "./StoreAddresses/StoreAddresses";
 import Footer from "./Footer/Footer";
+import Stories from "./Stories/Stories";
 
 export {
     AuctionItems,
@@ -13,5 +14,6 @@ export {
     News,
     SalesHits,
     StoreAddresses,
-    Footer
+    Footer,
+    Stories
 }

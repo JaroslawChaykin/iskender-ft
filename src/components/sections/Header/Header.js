@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './Header.module.css'
 import Container from "../../Container/Container";
-import {IskIconButton} from "../../UI";
+import {IskIconButton, Search} from "../../UI";
 import logoSvg from "../../../assets/images/svg/Logo.svg";
-import Search from "../../UI/Search/Search";
 
 const Header = () => {
     return (
