@@ -1,0 +1,22 @@
+.color {
+    color: black;
+}
+
+.weight {
+    font-weight: 900;
+}
+
+.btn-text-weight-normal {
+    font-family: 'GilroyRegular', sans-serif;
+}
+
+.btn-text-size-normal {
+    font-size: 11px;
+}
+
+.btn-type-primary {
+    padding: 8px 24px;
+    background: var(--main-color);
+    border-radius: 11px;
+    border: none;
+}

@@ -1,0 +1,62 @@
+.header {
+    background: var(--main-color);
+    color: #fff;
+    padding: 15px;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.headerSearch {
+
+}
+
+.headerRight {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.headerSearch {
+    display: flex;
+    flex-grow: 1;
+}
+
+.headerButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+}
+
+.headerRight .splitter {
+    margin: 0 10px;
+}
+
+.headerRight .splitter::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 1px;
+    background: #fff;
+    opacity: 0.2;
+    height: 30px;
+}
+
+.auth {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.auth span {
+    font-size: 14px;
+}
